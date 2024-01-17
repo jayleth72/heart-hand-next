@@ -24,7 +24,7 @@ const RootLayout = ({ children }) => (
   
     <html lang="en">
       <body className={`${openSans.className} ${openSans.variable} ${lato.variable}`}>
-        {/* <Navbar /> */}
+        <Navbar />
         <Header />
         {children}
       </body>

@@ -1,7 +1,7 @@
 const Header = () => (
-    <header>
-        <div className="container">
-            <div class="h1">Learning with Nature</div>
+    <header class="pt-80 pb-80">
+        <div class="container">
+            <div className="h1">Learning with Nature</div>
         </div>
     </header>
 )

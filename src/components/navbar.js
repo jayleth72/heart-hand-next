@@ -4,21 +4,21 @@ import Link from 'next/link';
 
 const Navbar = () => (
   
-    <nav className={styles.nav}>
+    <nav>
       <ul>
         <li>
           <Link href="/">
-            <a>Home</a>
+            Home
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a>About</a>
+            About
           </Link>
         </li>
         <li>
           <Link href="/services">
-            <a>Services</a>
+            Services
           </Link>
         </li>
         {/* Add more links as needed */}
