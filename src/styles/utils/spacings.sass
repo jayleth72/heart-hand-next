@@ -1,3 +1,10 @@
+// margins
+$marginBottom: (10, 20, 30) 
+
+@each $mb in $marginBottom
+    .mb-#{$mb}
+        margin-bottom: #{$mb}px
+
 // padding
 $paddingTop: (80) 
 
